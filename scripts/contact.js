@@ -15,7 +15,7 @@ submitButton.addEventListener('click', function (event) {
 
 
      if (contactPage.firstChild)
-         contactPage.removefirstChild(contactpage.firstChild);
+         contactPage.removeChild(contactpage.firstChild);
     }
 
 
