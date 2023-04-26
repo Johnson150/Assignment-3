@@ -7,14 +7,14 @@ submitButton.addEventListener('click', function (event) {
     event.preventDefault();
 
 
-    let contactPage = document.querySelector('.contact');
+    const contactPage = document.querySelector('.contact');
 
-    let thankYou = document.createElement('p');
+    const thankYou = document.createElement('p');
+    thankYou.style.fontSize = '24px'
     thankYou.textContent = 'Thank you for your message';
-    thankYou.style.fontSize = '24px';
 
 
-    while (contactPage.firstChild) {
+    if (contactPage.firstChild) {
         contactPage.removeChild(contactPage.firstChild);
     }
 
