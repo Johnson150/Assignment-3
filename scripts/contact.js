@@ -14,7 +14,7 @@ submitButton.addEventListener('click', function (event) {
     thankYou.textContent = 'Thank you for your message';
 
 
-        contactPage.removecontacPage(contactPage);
+        contactPage.removecontactPage(contactPage);
     }
 
 
